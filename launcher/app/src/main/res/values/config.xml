@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="settings_fallback_components" translatable="false">
@@ -53,7 +54,7 @@
     <bool name="home_long_press_home">false</bool>
     <bool name="shamsi_date">false</bool>
     <bool name="lunar_date">false</bool>
-    <bool name="date_below_clock">false</bool>
+    <bool name="date_below_clock">true</bool>
     <string name="locale" translatable="false">pt-BR</string>
     <string name="greeting_name" translatable="false"></string>
     <bool name="show_greeting">true</bool>
@@ -126,5 +127,3 @@
     <string name="glass_style" translatable="false">glass</string>
     <string-array name="icon_tiles" translatable="false"></string-array>
 </resources>
-
-
