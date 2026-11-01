@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Home</string>
@@ -22,9 +23,11 @@
     <string name="offline">Offline</string>
     <string name="not_available">Not available on this TV</string>
     <string name="cant_open">Can\'t open %1$s</string>
+
     <string name="date_format">EEEE  d MMMM</string>
-    <!-- Date next to the clock on Home; a locale can split it over two lines with \n. -->
-    <string name="date_format_home" translatable="false">@string/date_format</string>
+    <!-- Compact date below clock: abbreviated weekday and day/month on separate lines. -->
+    <string name="date_format_home" translatable="false">EEE\n dd MMM</string>
+
     <string name="shamsi_month_farvardin">Farvardin</string>
     <string name="shamsi_month_ordibehesht">Ordibehesht</string>
     <string name="shamsi_month_khordad">Khordad</string>
@@ -152,6 +155,5 @@
     <!-- Cinematic top shelf (cinematic_home): the line under the focused dock app's name; %1$s is when it was
          last opened, e.g. "5 minutes ago" or "yesterday, 9:40 pm". -->
     <string name="last_opened">Last opened %1$s</string>
-    <!-- game_day: a game on now, in the race panel. -->
     <string name="game_live">Live now</string>
 </resources>
